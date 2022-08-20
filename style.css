@@ -43,3 +43,15 @@ main .card:hover{
     width: 450px;
     height: 600px;
 }
+
+footer .bot a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
