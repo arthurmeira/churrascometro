@@ -1,4 +1,2 @@
 # Churrascometro
-### Design:
-
-https://arthurmeira.github.io/churrascometro/
+Acesso: https://arthurmeira.github.io/churrascometro/
