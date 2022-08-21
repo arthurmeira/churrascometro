@@ -47,21 +47,40 @@ main .card:hover{
     box-shadow: 0px 0px 10px royalblue;
 }
 
-main .datas div input{
+main .datas input{
+    font-size: 20px;
     text-align: center;
-    width: 50px;
+    height: 25px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background 1s;
 }
 
-main .datas div{
-    margin: 60px 0px 60px 0px;
-    font-size: 20px;
+main .datas input:focus{
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+}
+
+main .datas .form-control, .btn{
+    margin: 50px 0px 50px 0px;
+    font-size: 18px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+main .datas .form-control label, input{
+    margin: 0px 15px 0px 15px;
+}
+
+main .datas h3{
+    color: royalblue;
+}
+
 main .datas .btn input{
+    font-size: 16px;
     width: 140px;
     height: 30px;
     cursor: pointer;
@@ -69,12 +88,17 @@ main .datas .btn input{
     border: 2px solid royalblue;
     color: royalblue;
     border-radius: 10px;
+    transition: background 1s;
+}
+
+main .datas .btn input:hover{
+    background-color: rgb(220, 220, 220);
 }
 
 footer .bot a{
     text-decoration: none;
     color: royalblue;
-    font-size: 14px;
+    font-size: 16px;
     position: absolute;
     bottom: 0px;
     width: 100%;
