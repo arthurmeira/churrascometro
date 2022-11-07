@@ -1,2 +1,2 @@
 # CHURRASCOMETRO
-Acesso: https://arthurmeira.github.io/churrascometro/
+Acesse por aqui: https://arthurmeira.github.io/churrascometro/
