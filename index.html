@@ -18,38 +18,51 @@
         <div class="container">
             <div class="card">
                 <div class="datas">
-                    <form>
+                    
                         <div class="form-control">
-                            <h3>
+                            <h3 id="h3">
                                 Informe os dados
                             </h3>
                         </div>
                         <div class="form-control">
-                            <label for="">Homens</label> 
-                            <img src="/images/man.png" alt="man">
-                            <input type="number"> <br>
+                            <label>Homens</label> 
+                            <img src="images/man.png" alt="man">
+                            <input type="number" id="man"> <br>
                         </div>
                         <div class="form-control">
-                            <label for="">Mulheres</label>
-                            <img src="/images/woman.png" alt="woman">
-                            <input type="number"> <br>
+                            <label>Mulheres</label>
+                            <img src="images/woman.png" alt="woman">
+                            <input type="number" id="woman"> <br>
                         </div>
                         <div class="form-control">
-                            <label for="">Crianças</label>
-                            <img src="/images/handball.png" alt="kid">
-                            <input type="number"> <br>
+                            <label>Crianças</label>
+                            <img src="images/handball.png" alt="kid">
+                            <input type="number" id="kid"> <br>
                         </div>
                         <div class="form-control">
-                            <label for="">Duração</label>
-                            <img src="/images/clock.png" alt="time">
-                            <input type="number"> <br>
+                            <label>Duração</label>
+                            <img src="images/clock.png" alt="time">
+                            <input type="number" id="time">
                         </div class="form-control">
                         <div class="btn">
-                            <input type="submit" value="Calcular">
+                            <input type="submit" id="btn" value="Calcular">
                         </div><!--btns-->
-                    </form>
+                    
                 </div><!--datas-->
             </div><!--card-->
+            <div class="modal" id="modal">
+                <div class="churras">
+                    <div class="head">
+                        <h3>Seu churrasco precisa de:</h3><br>
+                        <img id="close" src="images/close.png" alt="close">
+                    </div><!--head-->
+                    <br>
+                    <div class="mod"><label>Carne:</label> <span id="tCarne"></span></div> 
+                    <div class="mod"><label>Cerveja:</label> <span id="tCerveja"></span></div> 
+                    <div class="mod"><label>Suco:</label> <span id="tSuco"></span></div> 
+                    <div class="mod"><label>Carvão:</label> <span id="tCarvao"></span></div> 
+                </div><!--churras-->
+            </div><!--modal-->
         </div><!--container-->
     </main>
 
@@ -58,5 +71,7 @@
             <span><a href="https://github.com/arthurmeira">/meiradev</a></span>
         </div><!--bot-->
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

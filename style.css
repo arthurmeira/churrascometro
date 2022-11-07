@@ -106,3 +106,35 @@ footer .bot a{
     padding: 5px;
     background-color: rgb(255, 255, 255);
 }
+
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    border: 2px dashed royalblue;
+}
+
+
+.modal h3, label{
+    color: royalblue;
+}
+
+.modal img{
+    width: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.modal .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
