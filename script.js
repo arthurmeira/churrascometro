@@ -38,14 +38,14 @@ function total() {
         let sit2 = (tPessoas * 650) / 1000;
 
         if (time.value < 6) {    
-            tCarne.innerText = sit1 + ' KG';
-            tCerveja.innerText = (tAdultos * 1200)/1000 + ' L';
-            tSuco.innerText = (tPessoas * 1000)/1000 + ' L';
+            tCarne.innerText = (sit1).toFixed(1) + ' KG';
+            tCerveja.innerText = ((tAdultos * 1200)/1000).toFixed(1) + ' L';
+            tSuco.innerText = ((tPessoas * 1000)/1000).toFixed(1) + ' L';
             tCarvao.innerText = (sit1 * 1.5).toFixed(1) + ' KG';
         } else {
-            tCarne.innerText = sit2 + ' KG';
-            tCerveja.innerText = (tAdultos * 2000)/1000 + ' L';
-            tSuco.innerText = (tPessoas * 1500)/1000 + ' L';
+            tCarne.innerText = (sit2).toFixed(1) + ' KG';
+            tCerveja.innerText = ((tAdultos * 2000)/1000).toFixed(1) + ' L';
+            tSuco.innerText = ((tPessoas * 1500)/1000).toFixed(1) + ' L';
             tCarvao.innerText = (sit2 * 1.5).toFixed(1) + ' KG';
         }
     }
